@@ -1,8 +1,7 @@
 import React from 'react';
 import {FaPizzaSlice, FaPepperHot} from "react-icons/fa";
 import {GiForkKnifeSpoon, GiShrimp, GiGarlic, GiNoodles, GiChopsticks} from "react-icons/gi";
-import {BsInfoLg} from "react-icons/bs";
-import {FiLogIn} from "react-icons/fi";
+
 import StyledList from "./List/ListCategory"
 import StyledLink from "./Link/LinkCategory"
 //import styled from "styled-components";
@@ -16,10 +15,7 @@ function Category() {
                     <GiForkKnifeSpoon/>
                     <h4>Home</h4>
                 </StyledLink>
-                <StyledLink to={"/About"}>
-                    <BsInfoLg/>
-                    <h4>About</h4>
-                </StyledLink>
+
                 <StyledLink to={"/cuisine/Spanish"}>
                     <GiShrimp/>
                     <h4>Spanish</h4>
@@ -44,10 +40,7 @@ function Category() {
                     <GiChopsticks/>
                     <h4>Chinese</h4>
                 </StyledLink>
-                <StyledLink to={"/Login"}>
-                    <FiLogIn/>
-                    <h4>Login</h4>
-                </StyledLink>
+
             </StyledList>
         </>
     );

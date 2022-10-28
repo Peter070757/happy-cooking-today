@@ -6,7 +6,7 @@ import Searched from "../components/Searched/Searched";
 import Recipe from "../components/Recipe/Recipe";
 
 
-//import About from "./About";
+
 import {Route, Routes} from "react-router-dom";
 
 
