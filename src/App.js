@@ -5,6 +5,7 @@ import Search from "./components/Search/Search";
 import {GiForkKnifeSpoon} from "react-icons/gi";
 import StyledLogo from "./application/Logo/LogoApp";
 import StyledNav from "./application/Navigation/NavApp";
+import Footer from './pages/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Search/>
             <Category/>
             <Pages/>
+            <Footer/>
 
 
         </div>
