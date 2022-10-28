@@ -13,11 +13,11 @@ import axios from "axios";
 
 function Seafood() {
     const [seafood, setSeafood] = useState([]);
-    const [error, setError] = useState('');
+
 
     useEffect(() => {
         async function getSeafood() {
-            setError('');
+
 
             try {
 
@@ -38,7 +38,7 @@ function Seafood() {
             } catch (e) {
                 console.error(e);
                 console.log(e.response);
-                setError(e.response.data.status);
+
             }
         }
 
@@ -47,7 +47,7 @@ function Seafood() {
 
     return (
         <div>
-            {error && <p>Something went wrong, statuscode {error}</p>}
+
             <StyledWrapper>
                 <h3>Fish & Seafood Recipes</h3>
                 <Splide

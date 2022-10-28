@@ -14,11 +14,11 @@ import axios from "axios";
 
 function Vegetarian() {
     const [vegetarian, setVegetarian] = useState([]);
-    const [error, setError] = useState('');
+
 
     useEffect(() => {
         async function getVegetarian() {
-            setError('');
+
 
             try {
 
@@ -40,7 +40,7 @@ function Vegetarian() {
                 (e) {
                 console.error(e);
                 console.log(e.response);
-                setError(e.response.data.status);
+
             }
         }
 
@@ -50,7 +50,7 @@ function Vegetarian() {
 
     return (
         <div>
-            {error && <p>Something went wrong, statuscode {error}</p>}
+
             <StyledWrapper>
                 <h3>Vegetarian Recipes</h3>
                 <Splide

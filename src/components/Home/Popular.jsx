@@ -13,11 +13,11 @@ import axios from 'axios';
 
 function Popular() {
     const [popular, setPopular] = useState([]);
-    const [error, setError] = useState('');
+
 
     useEffect(() => {
         async function getPopular() {
-            setError('');
+
 
             try {
 
@@ -36,7 +36,7 @@ function Popular() {
             } catch (e) {
                 console.error(e);
                 console.log(e.response);
-                setError(e.response.data.status);
+
             }
         }
 
@@ -46,7 +46,7 @@ function Popular() {
 
     return (
         <div>
-            {error && <p>Something went wrong, statuscode {error}</p>}
+
             <StyledWrapper>
                 <h3>Easy Popular Recipes</h3>
                 <Splide
