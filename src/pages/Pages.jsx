@@ -1,15 +1,12 @@
-//import React from 'react';
-
+import React from 'react';
 import Home from './Home';
 import Cuisine from "../components/Cuisine/Cuisine";
 import Searched from "../components/Searched/Searched";
 import Recipe from "../components/Recipe/Recipe";
-
+import About from "../components/About/About"
 
 
 import {Route, Routes} from "react-router-dom";
-
-
 
 
 function Pages() {
@@ -18,6 +15,7 @@ function Pages() {
     return (
         <Routes>
             <Route path="/" element={<Home/>}/>
+            <Route path="/About" element={<About/>}/>
             <Route path="/cuisine/:type" element={<Cuisine/>}/>
             <Route path="/searched/:search" element={<Searched/>}/>
             <Route path="/recipe/:name" element={<Recipe/>}/>
