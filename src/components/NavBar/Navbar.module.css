@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.button-design {
+    background-color: white;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    font-size: 1rem;
+    color: black;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.button-design:hover {
+    cursor: pointer;
+    border: 0.1rem solid orangered;
+    text-decoration-color: green;
+    color: green;
+}
+
+
+
+
+
