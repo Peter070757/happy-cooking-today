@@ -2,9 +2,6 @@ import React from 'react';
 import NavBar from "../NavBar/NavBar";
 import styles from './Profile.module.css';
 
-//import styles from '../Authentication/AuthStyles.css'
-
-
 function ProfilePage() {
     return (
         <>
@@ -20,7 +17,6 @@ function ProfilePage() {
                 <NavBar/>
 
             </main>
-
         </>
     );
 }
