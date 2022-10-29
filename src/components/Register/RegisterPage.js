@@ -27,7 +27,6 @@ function Register() {
             navigate("/login");
         } catch (e) {
             console.error(e);
-
         }
     }
 
