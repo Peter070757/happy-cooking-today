@@ -1,4 +1,3 @@
-//import React from 'react';
 import React, {useContext} from 'react';
 import Home from './Home';
 import Cuisine from "../components/Cuisine/Cuisine";
@@ -8,13 +7,11 @@ import About from "../components/About/About"
 import Login from "../components/Login/Login"
 import Register from "../components/Register/RegisterPage"
 import Profile from "../components/Profile/ProfilePage";
-//import About from "./About";
 import {Route, Routes} from "react-router-dom";
-
 import {AuthContext} from "../context/AuthContext";
 
-
 function Pages() {
+    
     const {isAuth} = useContext(AuthContext);
 
     return (
