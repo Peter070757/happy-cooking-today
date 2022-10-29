@@ -1,11 +1,8 @@
 import React from 'react';
 import {useEffect, useState} from "react";
-//import styled from "styled-components";
 import {Splide, SplideSlide} from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import {Link} from "react-router-dom";
-//import StyledParagraph from "./Paragraph/Paragraph";
-//import StyledImage from "./Image/Image";
 import StyledWrapper from "./Wrapper/Wrapper";
 import StyledCard from "./Card/Card";
 import StyledGradient from "./Gradient/Gradient";

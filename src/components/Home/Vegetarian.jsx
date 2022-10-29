@@ -1,11 +1,8 @@
 import React from 'react';
 import {Splide, SplideSlide} from "@splidejs/react-splide";
-//import styled from "styled-components";
 import {useEffect, useState} from "react";
 import '@splidejs/splide/dist/css/splide.min.css';
 import {Link} from "react-router-dom";
-//import StyledParagraph from "./StyledHomePage/Paragraph/Paragraph";
-//import StyledImage from "./StyledHomePage/Image/Image";
 import StyledWrapper from "./Wrapper/Wrapper";
 import StyledCard from "./Card/Card";
 import StyledGradient from "./Gradient/Gradient";
@@ -29,8 +26,6 @@ function Vegetarian() {
                 } else {
 
                     const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=12&tags=vegetarian`);
-                    //const data = await api.json();
-
                     localStorage.setItem("vegetarian", JSON.stringify(response.data.recipes));
 
                     setVegetarian(response.data.recipes);

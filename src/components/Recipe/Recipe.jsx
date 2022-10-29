@@ -1,6 +1,5 @@
 import React from 'react';
 import {useEffect, useState} from "react";
-//import styled from "styled-components"
 import {useParams} from "react-router-dom";
 import StyledDetailWrapper from "./DetailWrapper/DetailWrapperRecipe";
 import StyledInfo from "./Info/InfoRecipe";
