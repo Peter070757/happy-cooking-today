@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import styled from "styled-components";
 
 export const StyledGradient = styled.div`
@@ -8,14 +7,3 @@ export const StyledGradient = styled.div`
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 `;
-=======
-import styled from "styled-components";
-
-export const StyledGradient = styled.div`
-  z-index: 3;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-`;
->>>>>>> 1e00e8bc4861d6f3a31b335d666cdfaac22bd7fb
