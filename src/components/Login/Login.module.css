@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .error-message {
     color: orangered;
     font-size: 1rem;
@@ -58,3 +59,65 @@ label {
     text-decoration-color: green;
     color: green;
 }
+=======
+.error-message {
+    color: orangered;
+    font-size: 1rem;
+}
+
+.good-message {
+    color: white;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    transform: translate(0%, 0%);
+}
+
+.layout {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(35deg, #494949, #313131);
+    border: solid orangered 0.1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 30rem;
+    transform: translate(100%, 0%);
+}
+
+.form {
+    display: block;
+    font-size: 1.5rem;
+    width: 20rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+label {
+    color: white;
+}
+
+.button-design {
+    padding: 1rem;
+    border: 0.1rem solid black;
+    font-size: 1rem;
+    color: black;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.button-design:hover {
+    cursor: pointer;
+    border: solid orangered 0.1rem;
+    text-decoration-color: green;
+    color: green;
+}
+>>>>>>> 1e00e8bc4861d6f3a31b335d666cdfaac22bd7fb

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -24,3 +25,31 @@
 
 
 
+=======
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.button-design {
+    background-color: white;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    font-size: 1rem;
+    color: black;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.button-design:hover {
+    cursor: pointer;
+    border: 0.1rem solid orangered;
+    text-decoration-color: green;
+    color: green;
+}
+
+
+
+
+
+>>>>>>> 1e00e8bc4861d6f3a31b335d666cdfaac22bd7fb
