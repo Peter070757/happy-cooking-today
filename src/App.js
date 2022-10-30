@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Pages from "./pages/Pages";
+import Category from "./components/Category/Category";
+import Search from "./components/Search/Search";
+import {GiForkKnifeSpoon} from "react-icons/gi";
+import StyledLogo from "./application/Logo/LogoApp";
+import StyledNav from "./application/Navigation/NavApp";
+import Footer from './pages/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+
+                <StyledNav>
+                    <GiForkKnifeSpoon/>
+                    <StyledLogo to={"/"}>Happy Cooking Today</StyledLogo>
+                </StyledNav>
+                <Search/>
+                <Category/>
+                <Pages/>
+                <Footer/>
+
+        </div>
+    );
 }
 
 export default App;
+
+
