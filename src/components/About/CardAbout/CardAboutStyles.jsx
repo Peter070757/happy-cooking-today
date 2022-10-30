@@ -6,29 +6,27 @@ export const StyledCard = styled.div`
   overflow: hidden;
   position: relative;
 
-  /*
-    img {
-      border-radius: 1rem;
-      border: 2px solid orangered;
-      position: absolute;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  */
+  img {
+    border-radius: 1rem;
+    border: 2px solid orangered;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
   p {
     position: relative;
-    // z-index: 10;
+    z-index: 10;
     left: 36%;
     //bottom: 0;
-    transform: translate(-30%, 0%);
+    transform: translate(-32%, 0%);
     color: white;
-    width: 100%;
-    text-align: justify;
+    width: 70%;
+    text-align: left;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -44,7 +42,7 @@ export const StyledCard = styled.div`
     font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 0;
-    transform: translate(5%, 0%);
+    transform: translate(12%, 0%);
   }
 
   .navLink {

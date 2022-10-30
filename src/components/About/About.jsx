@@ -1,65 +1,62 @@
 import React from 'react';
 import StyledCard from "./CardAbout/CardAbout";
-import {Link} from "react-router-dom";
+
+//import {Link} from "react-router-dom";
 
 function About() {
     return (
         <>
             <StyledCard>
-                <h4>Easy Popular Recipes</h4>
+                <h4>Easy Popular Recipes, Fish & Seafood Recipes and Vegetarian Recipes</h4>
             </StyledCard>
             <StyledCard>
-                <p>If you search for a simple recipe. Get <Link className='navLink' to="/">Easy popular recipes</Link>here.</p>
-            </StyledCard>
-
-            <StyledCard>
-                <h4>Cuisine from different countries</h4>
-            </StyledCard>
-            <StyledCard>
-                <p>
-                    On our site we give you several cuisine recipes from different countries. Get
-                    <Link className='navLink' to="/cuisine/italian">Italian recipes,</Link>
-                    <Link className='navLink' to="/cuisine/chinese"> Chinese recipes,</Link>
+                <p>If you search for a Easy Popular Recipe then click on the Home button above. Four recipes are
+                    displayed. You can choose dishes from twelve recipes. By clicking on the scroll button, the
+                    following four recipes are displayed, up to a maximum of twelve. You can also scroll with the mouse
+                    pointer over the recipe carousel. If a choice has been made, you can click on the photo to view the
+                    preparation
+                    method and associated ingredients. The same applies also for a Fish and Seafood dish or a Vegetarian
+                    dish.
                 </p>
             </StyledCard>
             <StyledCard>
-                <h4>Cuisine from different countries</h4>
+                <h4>Recipes from different cuisines</h4>
             </StyledCard>
             <StyledCard>
                 <p>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aut corporis dignissimos eveniet ex fugiat hic necessitatibus nostrum officia perspiciatis provident quae, qui, ullam veniam. Ad at dolorem facere ipsa molestias necessitatibus placeat quidem quod sunt vel. Aspernatur at distinctio ex incidunt laborum nemo possimus tenetur? Alias aut doloremque error et in libero non quisquam temporibus ut voluptatum! Amet eligendi minima sed similique? Architecto consectetur fugiat laborum libero maiores pariatur, quod? A asperiores aut blanditiis corporis dolor dolorem ex exercitationem fugit in inventore iusto laborum magni maxime nulla numquam placeat quaerat quas quisquam quos sunt tenetur, voluptate voluptatem voluptatibus.
+                    If you want to make something from a foreign kitchen, click on one of the six buttons above. You can
+                    choose dishes from Spain, France, Italy, India, Thailand or China. Twelve recipes are then
+                    displayed. You can make a choice from this. If a choice has been made, you can click on the photo to
+                    view the preparation method and associated ingredients.
                 </p>
             </StyledCard>
             <StyledCard>
-                <h4>Cuisine from different countries</h4>
+                <h4>Search for your own recipe</h4>
             </StyledCard>
             <StyledCard>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aut corporis dignissimos eveniet ex fugiat hic necessitatibus nostrum officia perspiciatis provident quae, qui, ullam veniam. Ad at dolorem facere ipsa molestias necessitatibus placeat quidem quod sunt vel. Aspernatur at distinctio ex incidunt laborum nemo possimus tenetur? Alias aut doloremque error et in libero non quisquam temporibus ut voluptatum! Amet eligendi minima sed similique? Architecto consectetur fugiat laborum libero maiores pariatur, quod? A asperiores aut blanditiis corporis dolor dolorem ex exercitationem fugit in inventore iusto laborum magni maxime nulla numquam placeat quaerat quas quisquam quos sunt tenetur, voluptate voluptatem voluptatibus.
+                    In the search bar above you can enter your own meal. Then twelve recipes are shown from which a
+                    choice
+                    can be made. You can also enter some ingredients (separated by a comma) that you have in stock.
+                    If a choice has been made, you can click on the photo to view the preparation method and associated
+                    ingredients.
                 </p>
             </StyledCard>
             <StyledCard>
-                <h4>Cuisine from different countries</h4>
+                <h4>Login or register</h4>
             </StyledCard>
             <StyledCard>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aut corporis dignissimos eveniet ex fugiat hic necessitatibus nostrum officia perspiciatis provident quae, qui, ullam veniam. Ad at dolorem facere ipsa molestias necessitatibus placeat quidem quod sunt vel. Aspernatur at distinctio ex incidunt laborum nemo possimus tenetur? Alias aut doloremque error et in libero non quisquam temporibus ut voluptatum! Amet eligendi minima sed similique? Architecto consectetur fugiat laborum libero maiores pariatur, quod? A asperiores aut blanditiis corporis dolor dolorem ex exercitationem fugit in inventore iusto laborum magni maxime nulla numquam placeat quaerat quas quisquam quos sunt tenetur, voluptate voluptatem voluptatibus.
+                    By registering yourself you will get your own profile page with all your details. Click on the Login
+                    button above and follow the further instructions there.
                 </p>
             </StyledCard>
             <StyledCard>
-                <h4>Cuisine from different countries</h4>
+                <h4>Happy Cooking Today</h4>
             </StyledCard>
             <StyledCard>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aut corporis dignissimos eveniet ex fugiat hic necessitatibus nostrum officia perspiciatis provident quae, qui, ullam veniam. Ad at dolorem facere ipsa molestias necessitatibus placeat quidem quod sunt vel. Aspernatur at distinctio ex incidunt laborum nemo possimus tenetur? Alias aut doloremque error et in libero non quisquam temporibus ut voluptatum! Amet eligendi minima sed similique? Architecto consectetur fugiat laborum libero maiores pariatur, quod? A asperiores aut blanditiis corporis dolor dolorem ex exercitationem fugit in inventore iusto laborum magni maxime nulla numquam placeat quaerat quas quisquam quos sunt tenetur, voluptate voluptatem voluptatibus.
-                </p>
-            </StyledCard>
-            <StyledCard>
-                <h4>Cuisine from different countries</h4>
-            </StyledCard>
-            <StyledCard>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aut corporis dignissimos eveniet ex fugiat hic necessitatibus nostrum officia perspiciatis provident quae, qui, ullam veniam. Ad at dolorem facere ipsa molestias necessitatibus placeat quidem quod sunt vel. Aspernatur at distinctio ex incidunt laborum nemo possimus tenetur? Alias aut doloremque error et in libero non quisquam temporibus ut voluptatum! Amet eligendi minima sed similique? Architecto consectetur fugiat laborum libero maiores pariatur, quod? A asperiores aut blanditiis corporis dolor dolorem ex exercitationem fugit in inventore iusto laborum magni maxime nulla numquam placeat quaerat quas quisquam quos sunt tenetur, voluptate voluptatem voluptatibus.
+                    We wish you a lot of cooking fun today and enjoy your delicious meal!
                 </p>
             </StyledCard>
         </>
