@@ -4,7 +4,6 @@ import {Link, useNavigate} from "react-router-dom";
 import axios from "axios";
 import styles from './Login.module.css';
 
-
 function Login() {
     const {login} = useContext(AuthContext);
 
@@ -27,6 +26,8 @@ function Login() {
             navigate("/profile");
         } catch (e) {
             console.error(e.response);
+
+
         }
     }
 
@@ -67,7 +68,6 @@ function Login() {
                 <button type="submit" className={styles["button-design"]}>Login</button>
                 <p>If you don't have an account register <Link to="/register">...Here</Link></p>
             </form>
-
 
         </>
 

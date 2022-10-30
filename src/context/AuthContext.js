@@ -1,6 +1,5 @@
 import React, {createContext, useState} from 'react';
 import {useNavigate} from 'react-router-dom';
-
 export const AuthContext = createContext({});
 
 function AuthContextProvider({children}) {
@@ -8,14 +7,14 @@ function AuthContextProvider({children}) {
         isAuth: false,
         user: null
     });
-    //const history = useHistory();
+
     const navigate = useNavigate();
 
     function login() {
         toggleIsAuth({
             ...isAuth, isAuth: true
         });
-        // history.push("/profile");
+
         navigate("/profile")
     }
 
@@ -26,7 +25,7 @@ function AuthContextProvider({children}) {
                 isAuth: false,
                 user: null,
             });
-        //history.push('/');
+
         navigate('/')
     }
 
@@ -36,7 +35,6 @@ function AuthContextProvider({children}) {
         login: login,
         logout: logout,
     };
-
 
     return (
         <AuthContext.Provider value={contextData}>

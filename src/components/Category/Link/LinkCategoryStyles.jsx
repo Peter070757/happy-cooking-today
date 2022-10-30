@@ -32,10 +32,6 @@ export const StyledLink = styled(NavLink)`
   &.active {
     background: linear-gradient(to right, #672b05, #590612);
 
-    svg {
-      //color: white;
-    }
-
     h4 {
       color: white;
     }

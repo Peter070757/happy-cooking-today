@@ -9,6 +9,7 @@ function Register() {
     const [password, setPassword] = useState('');
     const [user, setRole] = useState('');
 
+    //const history = useHistory();
     const navigate = useNavigate();
 
     async function RegisterUser(e) {
@@ -26,7 +27,6 @@ function Register() {
             navigate("/login");
         } catch (e) {
             console.error(e);
-
         }
     }
 

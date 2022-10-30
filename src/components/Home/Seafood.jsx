@@ -11,7 +11,6 @@ import axios from "axios";
 function Seafood() {
     const [seafood, setSeafood] = useState([]);
 
-
     useEffect(() => {
         async function getSeafood() {
 
@@ -33,7 +32,6 @@ function Seafood() {
             } catch (e) {
                 console.error(e);
                 console.log(e.response);
-
             }
         }
 
@@ -42,7 +40,6 @@ function Seafood() {
 
     return (
         <div>
-
             <StyledWrapper>
                 <h3>Fish & Seafood Recipes</h3>
                 <Splide

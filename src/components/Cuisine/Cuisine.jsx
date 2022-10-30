@@ -13,10 +13,8 @@ function Cuisine() {
         async function getCuisine(name) {
             try {
                 const response = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&number=12&cuisine=${name}`);
-
-                //createRecipeList( response.data )
                 console.log(response.data);
-                //console.log(result.data);
+
                 setCuisine(response.data.results);
 
             } catch (e) {

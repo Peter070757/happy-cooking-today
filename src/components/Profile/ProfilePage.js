@@ -17,7 +17,6 @@ function ProfilePage() {
                 <NavBar/>
 
             </main>
-
         </>
     );
 }

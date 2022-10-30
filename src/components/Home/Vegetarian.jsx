@@ -6,16 +6,13 @@ import {Link} from "react-router-dom";
 import StyledWrapper from "./Wrapper/Wrapper";
 import StyledCard from "./Card/Card";
 import StyledGradient from "./Gradient/Gradient";
-
 import axios from "axios";
 
 function Vegetarian() {
     const [vegetarian, setVegetarian] = useState([]);
 
-
     useEffect(() => {
         async function getVegetarian() {
-
 
             try {
 
@@ -26,6 +23,7 @@ function Vegetarian() {
                 } else {
 
                     const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=12&tags=vegetarian`);
+
                     localStorage.setItem("vegetarian", JSON.stringify(response.data.recipes));
 
                     setVegetarian(response.data.recipes);
@@ -35,17 +33,14 @@ function Vegetarian() {
                 (e) {
                 console.error(e);
                 console.log(e.response);
-
             }
         }
 
         getVegetarian();
     }, []);
 
-
     return (
         <div>
-
             <StyledWrapper>
                 <h3>Vegetarian Recipes</h3>
                 <Splide

@@ -11,6 +11,7 @@ import {Route, Routes} from "react-router-dom";
 import {AuthContext} from "../context/AuthContext";
 
 function Pages() {
+
     const {isAuth} = useContext(AuthContext);
 
     return (

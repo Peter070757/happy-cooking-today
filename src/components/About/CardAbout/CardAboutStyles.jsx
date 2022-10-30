@@ -6,9 +6,23 @@ export const StyledCard = styled.div`
   overflow: hidden;
   position: relative;
 
+  /*
+    img {
+      border-radius: 1rem;
+      border: 2px solid orangered;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  */
+
   p {
     position: relative;
+    // z-index: 10;
     left: 36%;
+    //bottom: 0;
     transform: translate(-30%, 0%);
     color: white;
     width: 100%;

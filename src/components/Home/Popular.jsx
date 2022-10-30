@@ -11,10 +11,8 @@ import axios from 'axios';
 function Popular() {
     const [popular, setPopular] = useState([]);
 
-
     useEffect(() => {
         async function getPopular() {
-
 
             try {
 
@@ -25,6 +23,7 @@ function Popular() {
                 } else {
 
                     const response = await axios.get(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=12`);
+
                     localStorage.setItem("popular", JSON.stringify(response.data.recipes));
 
                     setPopular(response.data.recipes);
@@ -33,17 +32,14 @@ function Popular() {
             } catch (e) {
                 console.error(e);
                 console.log(e.response);
-
             }
         }
 
-                getPopular();
+        getPopular();
     }, []);
-
 
     return (
         <div>
-
             <StyledWrapper>
                 <h3>Easy Popular Recipes</h3>
                 <Splide

@@ -10,17 +10,18 @@ function App() {
     return (
         <div className="App">
 
-            <StyledNav>
-                <GiForkKnifeSpoon/>
-                <StyledLogo to={"/"}>Happy Cooking Today</StyledLogo>
-            </StyledNav>
-            <Search/>
-            <Category/>
-            <Pages/>
-            <Footer/>
+                <StyledNav>
+                    <GiForkKnifeSpoon/>
+                    <StyledLogo to={"/"}>Happy Cooking Today</StyledLogo>
+                </StyledNav>
+                <Search/>
+                <Category/>
+                <Pages/>
+                <Footer/>
 
         </div>
     );
 }
 
 export default App;
+
