@@ -7,6 +7,9 @@ function About() {
     return (
         <>
             <StyledCard>
+                <h1>A short guide on how to use this application</h1>
+            </StyledCard>
+            <StyledCard>
                 <h4>Easy Popular Recipes, Fish & Seafood Recipes and Vegetarian Recipes</h4>
             </StyledCard>
             <StyledCard>
@@ -48,7 +51,10 @@ function About() {
             <StyledCard>
                 <p>
                     By registering yourself you will get your own profile page with all your details. Click on the Login
-                    button above and follow the further instructions there.
+                    button above and follow the further instructions there. If you have an username and password you can
+                    login to your profile page. If you don't have a username and password then register first if you
+                    will.
+                    For register click on the link "... Here" into the login form.
                 </p>
             </StyledCard>
             <StyledCard>
