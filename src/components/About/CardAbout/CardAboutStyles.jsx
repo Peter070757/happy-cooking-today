@@ -33,6 +33,17 @@ export const StyledCard = styled.div`
     justify-content: flex-start;
     align-items: center;
   }
+  
+  h1 {
+    text-align: left;
+    padding: 1rem;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    transform: translate(12%, 0%);
+  }
 
   h4 {
     text-align: left;
