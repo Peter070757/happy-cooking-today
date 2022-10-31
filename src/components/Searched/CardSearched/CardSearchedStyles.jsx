@@ -17,3 +17,4 @@ export const StyledCard = styled.div`
     font-weight: 500;
   }
 `;
+

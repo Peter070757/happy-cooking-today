@@ -14,3 +14,4 @@ export const StyledButton = styled.button`
   font-weight: 600;
   cursor: pointer;
 `;
+

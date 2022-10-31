@@ -16,3 +16,4 @@ export const StyledParagraph = styled.p`
     justify-content: center;
     align-items: center;
  `;
+
