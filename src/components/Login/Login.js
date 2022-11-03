@@ -66,7 +66,7 @@ function Login() {
                 </label>
 
                 <button type="submit" className={styles["button-design"]}>Login</button>
-                <p>If you don't have an account register <Link to="/register">...Here</Link></p>
+                <p><Link to="/register"><h2>For a new account register here.</h2></Link></p>
             </form>
 
         </>
