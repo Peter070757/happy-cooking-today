@@ -18,9 +18,8 @@ export const StyledCard = styled.div`
 
   p {
     position: relative;
-    z-index: 10;
+    z-index: -2;
     left: 36%;
-    //bottom: 0;
     transform: translate(-32%, 0%);
     color: white;
     width: 70%;
@@ -33,14 +32,14 @@ export const StyledCard = styled.div`
     justify-content: flex-start;
     align-items: center;
   }
-  
+
   h1 {
     text-align: left;
     padding: 1rem;
     color: white;
     font-size: 1.8rem;
     font-weight: 600;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 0;
     transform: translate(12%, 0%);
   }
@@ -51,9 +50,10 @@ export const StyledCard = styled.div`
     color: #b63607;
     font-size: 1.4rem;
     font-weight: 600;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     margin-bottom: 0;
     transform: translate(12%, 0%);
+
   }
 
   .navLink {
