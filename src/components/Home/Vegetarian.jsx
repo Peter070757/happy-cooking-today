@@ -31,8 +31,7 @@ function Vegetarian() {
                 }
             } catch
                 (e) {
-                console.error(e);
-                console.log(e.response);
+                console.error(e);                
             }
         }
 
