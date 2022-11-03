@@ -8,8 +8,6 @@ function Register() {
     const [userName, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [user, setRole] = useState('');
-
-    //const history = useHistory();
     const navigate = useNavigate();
 
     async function RegisterUser(e) {
