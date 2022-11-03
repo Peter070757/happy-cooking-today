@@ -30,8 +30,7 @@ function Seafood() {
                     console.log(response.data.recipes);
                 }
             } catch (e) {
-                console.error(e);
-                console.log(e.response);
+                console.error(e);             
             }
         }
 
