@@ -54,7 +54,7 @@ function About() {
                     button above and follow the further instructions there. If you have an username and password you can
                     login to your profile page. If you don't have a username and password then register first if you
                     will.
-                    For register click on the link "... Here" into the login form.
+                    For register click on the link "For a new account register here." into the login form.
                 </p>
             </StyledCard>
             <StyledCard>
