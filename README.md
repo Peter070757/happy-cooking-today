@@ -18,7 +18,7 @@ About page. You can register and then sign in to view your personal Profile page
 
 ## 2. Screenshot from Homepage of this application.
 
-<img width="538" alt="Screenshot Home Page" src="assets/homepage.jpg"/>
+<img  alt="Screenshot Home Page" src="assets/homepage.jpg"/>
 
 ## 3. Installation and Requirements.
 
