@@ -61,7 +61,7 @@ temporarily pre-installed and will no longer work within a few weeks after my st
 But the best is to create your own free account with [Spoonacular](https://spoonacular.com/food-api/console#Dashboard)
 and then enter it in the .env file with the following line:
 
-### REACT_APP_API_KEY=YouAPIKey
+### REACT_APP_API_KEY=YourAPIKey
 
 ### Step 6: Running and testing the project locally.
 
