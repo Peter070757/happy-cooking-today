@@ -16,9 +16,13 @@ recipes. You can search for a meal on your own dish or on ingredients. By clicki
 information such as the preparation method and the required ingredients will be shown. There is a short guide on the
 About page. You can register and then sign in to view your personal Profile page.
 
+---
+
 ## 2. Screenshot from Homepage of this application.
 
 <img  alt="Screenshot Home Page" src="assets/homepage.jpg"/>
+
+---
 
 ## 3. Installation and Requirements.
 
@@ -68,6 +72,8 @@ and then enter it in the .env file with the following line:
 To run the project locally and test all the functions, run the following command on the command line:
 
 `npm start`
+
+---
 
 ### 4. Register and Login.
 
