@@ -1,7 +1,6 @@
 import React from 'react';
 import {Splide, SplideSlide} from "@splidejs/react-splide";
 import {useEffect, useState} from "react";
-import '@splidejs/splide/dist/css/splide.min.css';
 import {Link} from "react-router-dom";
 import StyledWrapper from "./Wrapper/Wrapper";
 import StyledCard from "./Card/Card";
